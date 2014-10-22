@@ -11,7 +11,8 @@ if(is_home()){
 
 	// Variable
 	$youtube = get_post_meta($post->ID, 'youtube',single);
-	$url	 = get_stylesheet_uri();
+	$url	 = get_stylesheet_directory_uri();
+
 
 	// return
 	$saida = "<div class=\"hotsite\">
